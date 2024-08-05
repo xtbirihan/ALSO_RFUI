@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CRUD_RFUI_GR_HU_IS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Access for Table ZRFUI_GR_HU_IS</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new entry</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_ENQUEUE_WRITE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Write lock mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete an entry</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get an instance of the class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOCK_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Enqueue table ZRFUI_GR_HU_IS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_SINGLE_BY_LGNUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Dummy HU Inbound Shipment (IS) sequence number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SO_INST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RF: GR Dummy HU Inbound Shipment Date</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UNLOCK_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dequeue table ZRFUI_GR_HU_IS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update an entry</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE</CMPNAME>
+     <SCONAME>IS_RF_HU_IS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RF: GR Dummy HU Inbound Shipment</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <SCONAME>IS_RF_HU_IS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RF: GR Dummy HU Inbound Shipment</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INST</CMPNAME>
+     <SCONAME>RO_INST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RF: GR Dummy HU Inbound Shipment Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_TABLE</CMPNAME>
+     <SCONAME>IV_IS_DATE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RF: GR Dummy HU Inbound Shipment date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_TABLE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_SINGLE_BY_LGNUM</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_SINGLE_BY_LGNUM</CMPNAME>
+     <SCONAME>RS_RFUI_GR_HU_IS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RF: GR Dummy HU Inbound Shipment</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UNLOCK_TABLE</CMPNAME>
+     <SCONAME>IV_IS_DATE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RF: GR Dummy HU Inbound Shipment date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UNLOCK_TABLE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <SCONAME>IS_RF_HU_IS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RF: GR Dummy HU Inbound Shipment</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

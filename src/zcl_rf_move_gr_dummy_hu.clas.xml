@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_RF_MOVE_GR_DUMMY_HU</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>RF - Move goods received dummy handling unit</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>K</RSTAT>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Start: Move GR dummy HU</ENTRY>
+     <LENGTH>46</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Finish: Move GR dummy HU</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>HU Ident</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Dest. Storage Bin</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Beginn: Verschieben WE Dummy HU</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Ende: Verschieben WE Dummy HU</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>HU Ident</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Ziel Lagerplatz</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Start: Move GR dummy HU</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Finish: Move GR dummy HU</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>HU Ident</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Dest. Storage Bin</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Start: Move GR dummy HU</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Finish: Move GR dummy HU</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>HU Ident</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Dest. Storage Bin</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Start: Move GR dummy HU</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Finish: Move GR dummy HU</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>HU Ident</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Dest. Storage Bin</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Start: Move GR dummy HU</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Finish: Move GR dummy HU</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>HU Ident</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Dest. Storage Bin</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_WAREHOUSE_TASK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creates a warehouse task</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_WAREHOUSE_TASK</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Creates a warehouse task</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_WAREHOUSE_TASK</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Creates a warehouse task</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_WAREHOUSE_TASK</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Creates a warehouse task</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_WAREHOUSE_TASK</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Creates a warehouse task</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ERROR_ORCCURRED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks, whether an error occurred during processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ERROR_ORCCURRED</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Checks, whether an error occurred during processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ERROR_ORCCURRED</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Checks, whether an error occurred during processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ERROR_ORCCURRED</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Checks, whether an error occurred during processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ERROR_ORCCURRED</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Checks, whether an error occurred during processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns singleton instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Returns singleton instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Returns singleton instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Returns singleton instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Returns singleton instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_WAREHOUSE_PROCESS_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns the warehouse process type for the warehouse number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_WAREHOUSE_PROCESS_TYPE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Returns the warehouse process type for the warehouse number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_WAREHOUSE_PROCESS_TYPE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Returns the warehouse process type for the warehouse number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_WAREHOUSE_PROCESS_TYPE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Returns the warehouse process type for the warehouse number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_WAREHOUSE_PROCESS_TYPE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Returns the warehouse process type for the warehouse number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_APPLICATION_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_APPLICATION_LOG</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_APPLICATION_LOG</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_APPLICATION_LOG</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_APPLICATION_LOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_SINGLETON_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RF - Move goods received dummy handling unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_SINGLETON_INSTANCE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>RF - Move goods received dummy handling unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_SINGLETON_INSTANCE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>RF - Move goods received dummy handling unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_SINGLETON_INSTANCE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>RF - Move goods received dummy handling unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_SINGLETON_INSTANCE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>RF - Move goods received dummy handling unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_WAREHOUSENUMBER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_WAREHOUSENUMBER</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_WAREHOUSENUMBER</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_WAREHOUSENUMBER</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_WAREHOUSENUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_INPUT_VALID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Performs all input validations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_INPUT_VALID</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Performs all input validations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_INPUT_VALID</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Performs all input validations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_INPUT_VALID</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Performs all input validations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_INPUT_VALID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Performs all input validations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_STORAGE_BIN_VALID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks, whether the entered storage bin is valid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_STORAGE_BIN_VALID</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Checks, whether the entered storage bin is valid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_STORAGE_BIN_VALID</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Checks, whether the entered storage bin is valid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_STORAGE_BIN_VALID</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Checks, whether the entered storage bin is valid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_STORAGE_BIN_VALID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Checks, whether the entered storage bin is valid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_WAREHOUSENUMBER_VALID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks, whether the entered warehousenumber is valid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_WAREHOUSENUMBER_VALID</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Checks, whether the entered warehousenumber is valid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_WAREHOUSENUMBER_VALID</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Checks, whether the entered warehousenumber is valid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_WAREHOUSENUMBER_VALID</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Checks, whether the entered warehousenumber is valid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_WAREHOUSENUMBER_VALID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Checks, whether the entered warehousenumber is valid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MOVE_GR_DUMMY_HU</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Moves a GR dummy HU to the designated storage bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MOVE_GR_DUMMY_HU</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Moves a GR dummy HU to the designated storage bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MOVE_GR_DUMMY_HU</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Moves a GR dummy HU to the designated storage bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MOVE_GR_DUMMY_HU</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Moves a GR dummy HU to the designated storage bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MOVE_GR_DUMMY_HU</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Moves a GR dummy HU to the designated storage bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_DEST_STORAGE_BIN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Destination Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_DEST_STORAGE_BIN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Destination Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_DEST_STORAGE_BIN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Destination Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_DEST_STORAGE_BIN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Destination Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_DEST_STORAGE_BIN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Destination Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_HANDLING_UNIT_IDENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_HANDLING_UNIT_IDENT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_HANDLING_UNIT_IDENT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_HANDLING_UNIT_IDENT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_HANDLING_UNIT_IDENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SEVERITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message type: S Success, E Error, W Warning, I Info, A Abort</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SEVERITY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Message type: S Success, E Error, W Warning, I Info, A Abort</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SEVERITY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Message type: S Success, E Error, W Warning, I Info, A Abort</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SEVERITY</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Message type: S Success, E Error, W Warning, I Info, A Abort</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SEVERITY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Message type: S Success, E Error, W Warning, I Info, A Abort</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_WAREHOUSE_PROCESS_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Process Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_WAREHOUSE_PROCESS_TYPE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Process Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_WAREHOUSE_PROCESS_TYPE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Process Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_WAREHOUSE_PROCESS_TYPE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Process Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_WAREHOUSE_PROCESS_TYPE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Process Type</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RF - Move goods received dummy handling unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>RF - Move goods received dummy handling unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>RF - Move goods received dummy handling unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>RF - Move goods received dummy handling unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>RF - Move goods received dummy handling unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_GR_DUMMY_HU</CMPNAME>
+     <SCONAME>IV_WAREHOUSENUMBER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_GR_DUMMY_HU</CMPNAME>
+     <SCONAME>IV_WAREHOUSENUMBER</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_GR_DUMMY_HU</CMPNAME>
+     <SCONAME>IV_WAREHOUSENUMBER</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_GR_DUMMY_HU</CMPNAME>
+     <SCONAME>IV_WAREHOUSENUMBER</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_GR_DUMMY_HU</CMPNAME>
+     <SCONAME>IV_WAREHOUSENUMBER</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_WHO_EEW_CHANGE_FLAG</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>OBSOLETE: Indicator: Set flag for Is_Bundled logic</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_FLAG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indicator: Set flag for Is_Bundled logic</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FLAG</CMPNAME>
+     <SCONAME>RV_FLAG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FLAG</CMPNAME>
+     <SCONAME>RV_FLAG</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FLAG</CMPNAME>
+     <SCONAME>RV_FLAG</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FLAG</CMPNAME>
+     <SCONAME>RV_FLAG</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FLAG</CMPNAME>
+     <SCONAME>RV_FLAG</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indicator: Set flag for Is_Bundled logic</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Indicator: Set flag for Is_Bundled logic</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Indicator: Set flag for Is_Bundled logic</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Indicator: Set flag for Is_Bundled logic</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Indicator: Set flag for Is_Bundled logic</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_FLAG</CMPNAME>
+     <SCONAME>IV_FLAG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_FLAG</CMPNAME>
+     <SCONAME>IV_FLAG</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_FLAG</CMPNAME>
+     <SCONAME>IV_FLAG</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_FLAG</CMPNAME>
+     <SCONAME>IV_FLAG</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_FLAG</CMPNAME>
+     <SCONAME>IV_FLAG</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

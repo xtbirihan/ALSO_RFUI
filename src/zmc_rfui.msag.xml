@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMC_RFUI</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>RFUI Messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Record in table ZRFUI_GR_HU_IS does not exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error updating entry in table ZRFUI_GR_HU_IS!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Error creating entry in table ZRFUI_GR_HU_IS!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Scanned HU is not maintained with IS no</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Scanned HU not of today; are you sure?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Bin &amp;1 allows a maximum of &amp;2 HU’s</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Staging lane does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Bin not found for HU Type &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Please enter HU Type different from current one.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Action not allowed. Data is not validated.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Error deleting entry in table ZRFUI_GR_HU_IS!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Number HUs cannot be 0 or empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Enter valid storage bin level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>No storage bin found for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Storage location is blocked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Scanned value is not correct.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Grouping of WOs has failed. Contact administration.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>All HUs for WO &amp;1 are created.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Cart ID &amp;1 is invalid.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Cart ID &amp;1 is empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Cart ID &amp;1 already assigned to other Resource &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Error while assigning Cart ID</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Error while confirming WT &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Scan Pick Cart or Queue.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>No open WHOs found for Queue &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Missing master data settings for packing material of pick.cart</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Scanned value &amp;1 is not Queue and is not a picking cart.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Please scan cart first.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Pick HU can not be created. Contact support team</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Possition &amp;1 already occupied.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Open WTs not found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Possition &amp;1 is not allowed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Scanned value is not a cart.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Cart layout not found for queue &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Enter number of master carton</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Scan the correct source storage bin</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Scan the correct source HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Scan the correct material</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Scan the required numer of master cartons</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>EAN is relevant for more then one prod. Please check the mast.data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Weight limits are exceeded. Do you want to continue?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Storage &amp;1 bin is not allowed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Parameter missing - Park storage type &amp;1 / &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>You can not park cart on scanned bin.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>System can not find relevant WHO for the scanned cart</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Error while checking Storage bin for parking</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Storage type &amp;1 is not allowed for parking</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Product must be scanned first.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>All serial numbers are already scanned.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Pick HU not found for task &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>SN &amp;1 is not allowed. Already scanned for doc. &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Entered row doesn&apos;t match cart layout settings.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>System error. Contact your administrator.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Create new HU in the same cart?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Exception code &quot;HU Full&quot;  is not allowed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Cannot find pack. material. Contact your administrator.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Overpicked is not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Populate actual master cartons qty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Parameter for exc.code qty diff. missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>SN scanning is not allowed for HU &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Scanned SN is not valid.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>This will erase all scanned SN for HU &amp;1.  Do you want to continue?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Task not found for confirmation. Contact your administrator.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Cart &amp;1 is assigned to resource &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Selected queue is not relevant for the current picking process.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Scanned value &amp;1 is not a pallet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>System can not find relevant WHO for the scanned palled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>No WHO found for the selected queue.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Error: System cannot determine the process ( SPED or PALL)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Only bins in stor. type &amp;1 are allowed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Bin &amp;1 has stock. Only empty bins are allowed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Delivery document reference not found. Contact your administrator.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>ShipHU ( Pallet ) can not be found in pack.proposal WHO &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Enter printer name</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Cart &amp;1 cannot be used.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>Confirmation qty doesn&apos;t match the number of scanned SNs.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Queue &amp;1 is in process from this resource.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>Confirm with diff. quantity only possible with exception code.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>Enter serial number for deletion</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>Serial number &amp;1 was scanned. Scan a new one</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>All required SN was scanned. Continue with the picking.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>New HU not allowed for this RF transaction.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>Scanned count of scanned SN: &amp;1, but dest.HU QTY is &amp;2 for product &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>Enter/scan a valid door</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Resource &amp;1 is already assigned to WHO &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>Cart &amp;1 is empty no split possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>Scanned cart can not be reused. It is assigned to who &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>Scanned HU is not a cart.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>Scanned Cart is not empty. You can not re-used it</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>HU &amp;1 is assigned to another transportation unit</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>HU &amp;1 cannot be assigned to TU &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>HU &amp;1 does not exist in the system</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>HU &amp;1 is not loaded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>HU &amp;1 is not assigned to this TU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>HU &amp;1 cannot be unloaded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>HU &amp;1 is not in the staging area</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>Status Loading End cannot be set for TU &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>HU &amp;1 is not loaded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>HU &amp;1 is already loaded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Scanned value is not packing material</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Scanned pallet packing material is not relevant for SPED process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>No KEP HU is allowed to SPED TU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Internal error. WO not found for tote &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Tote &amp;1 is not in current group.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>This will erase all scanned SN product &amp;1. Do you want to continue?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Not all serial numbers were scanned. Do you want to exit?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>Exception button is not relevant in this case.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>HU &amp;1 is empty. Full HU exception is not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>No SPED HU is allowed to KEP TU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>HU &amp;1 cannot be loaded for this TU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>HU &amp;1 and TU have different Carriers</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>Movement tasks not found for HUs on cart &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>Handling unit &amp;1 not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_RFUI</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>TU &amp;1 cannot check out</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

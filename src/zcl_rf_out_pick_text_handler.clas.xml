@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_RF_OUT_PICK_TEXT_HANDLER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>RF: Picking Process Text Logic - Load Text</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TEXTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Load Text - Picking Process</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TEXT_MATNR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Material Master Data Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MAPPING_TO_SCR_FIELD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Mapping Data To Screen Field</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXTS</CMPNAME>
+     <SCONAME>IS_DOCID_ITMID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Document Identification with ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXTS</CMPNAME>
+     <SCONAME>IV_ACTTY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Activity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXTS</CMPNAME>
+     <SCONAME>IV_HEADER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXTS</CMPNAME>
+     <SCONAME>IV_ITEM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXTS</CMPNAME>
+     <SCONAME>RV_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Notes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXT_MATNR</CMPNAME>
+     <SCONAME>IV_ENTITLED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Party Entitled to Dispose</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXT_MATNR</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXT_MATNR</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXT_MATNR</CMPNAME>
+     <SCONAME>RV_RESULT_MATNR_TEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Notes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAPPING_TO_SCR_FIELD</CMPNAME>
+     <SCONAME>IV_TEXT_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Notes</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

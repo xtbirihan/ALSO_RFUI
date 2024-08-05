@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MANAGE_ZRFUI_GR_HU_IS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Manage ZRFUI_GR_HU_IS Table operations</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create an instance of this class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_HU_IS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new HU Inbound Shipment (IS) sequence number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get an instance of the class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_WHN_DATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get warehause date</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_INST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Manage ZRFUI_GR_HU_IS operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_ZRFUIGRHUIS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RF: GR Dummy HU Inbound Shipment Date</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_HU_IS</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_HU_IS</CMPNAME>
+     <SCONAME>RV_IS_NUMB</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inbound Shipment (IS) Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INST</CMPNAME>
+     <SCONAME>RO_INST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Manage ZRFUI_GR_HU_IS operations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_WHN_DATE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_WHN_DATE</CMPNAME>
+     <SCONAME>RV_DATE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RF: GR Dummy HU Inbound Shipment date</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
